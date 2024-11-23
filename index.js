@@ -31,14 +31,14 @@ PromiseObj.then((e)=>{
 
     //Students is a class
 
-    const student1 = new Students({name:'Rohit'});
-    student1.save().then(() => console.log('Successfully Save'));
+    // const student1 = new Students({name:'Rohit'});
+    // student1.save().then(() => console.log('Successfully Save'));
 
-    const student2 = new Students({name:'Shubham'});
-    student2.save().then(() => console.log('Successfully Save'));
+    // const student2 = new Students({name:'Shubham'});
+    // student2.save().then(() => console.log('Successfully Save'));
 
-    const student3 = new Students({name:'Tushar'});
-    student3.save().then(() => console.log('Successfully Save'));
+    // const student3 = new Students({name:'Tushar'});
+    // student3.save().then(() => console.log('Successfully Save'));
 
   }).catch(err => console.log(err));
 
